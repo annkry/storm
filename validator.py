@@ -4,22 +4,22 @@
 Simple checker. Examples of use:
 
 1. Run all tests for a given task:
-  `python validator.py zad5 python storms_for_students.py`
+  `python validator.py zad5 python storm.py`
 
 2. Running on other tests
-  `python validator.py --testset large_tests.yaml zad5 python storms_for_students.py`
+  `python validator.py --testset large_tests.yaml zad5 python storms.py`
 
 3. Printing sample input/output:
   `python validator.py --show_example zad5`
 
 4. Print solution information:
-  `python validator.py --verbose zad5 python storms_for_students.py`
+  `python validator.py --verbose zad5 python storm.py`
 
 5. Force STDIN/STDOUT to communicate:
-  `python validator.py --stdio zad5 python storms_for_students.py`
+  `python validator.py --stdio zad5 python storm.py`
 
 6. Setting a multiplier for time limits:
-  `python validator.py --timeout-multiplier 2.5 zad5 python storms_for_students.py`
+  `python validator.py --timeout-multiplier 2.5 zad5 python storm.py`
 
 
 '''
